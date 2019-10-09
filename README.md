@@ -2,7 +2,7 @@
 
 ## Ansible - This is an ansible playbook to setup an infrastructure in aws. This will create a new VPC and 2 public subnets and 1 private subnets.
 
-## Also creates a new internet gateway for the VPC and one NAT gateway with EIP for private subnet. Then it willcreate 3 servers. One will be the bastion server which will be used to communicate with the other servers.
+## Also creates a new internet gateway for the VPC and one NAT gateway with EIP for private subnet. Then it will create 3 servers. One will be the bastion server which will be used to communicate with the other servers.
 
 ## Next a webserver and a database server. Databse server will be created under the private subnetso that there will be no connection from outside but the server can communicate to the outer world using NAT.
 
